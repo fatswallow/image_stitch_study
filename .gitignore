@@ -1,0 +1,10 @@
+*.ilk
+*.idb
+*.pdb
+*.dep
+*.embed.manifest
+*.embed.manifest.res
+*.intermediate.manifest
+*.htm
+*.exe
+*.obj
