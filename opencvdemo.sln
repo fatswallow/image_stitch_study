@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencvdemo", "opencvdemo\opencvdemo.vcproj", "{F0D10211-D9A4-4BE6-A6AC-87AD2904B76E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stitching", "stitching\stitching.vcproj", "{6155265A-A909-4AF5-86F3-BA23048626FC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fisheye", "fisheye\fisheye.vcproj", "{3604FBD9-654F-43CF-A725-DDB77E3A0146}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "resize", "resize\resize.vcproj", "{7114B57A-5C89-4C2C-8BCE-2E206E7CB11F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rotate_plane", "rotate_plane\rotate_plane.vcproj", "{3391B051-84AF-431C-860A-A6F7AF92BBD6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fisheyedemo", "fisheyedemo\fisheyedemo.vcproj", "{5EE88351-157B-4B92-9C12-F756E4434799}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fisheyeimage", "fisheyeimage\fisheyeimage.vcproj", "{B6D45748-64FF-4E53-B432-5D3D57D3B345}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0D10211-D9A4-4BE6-A6AC-87AD2904B76E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F0D10211-D9A4-4BE6-A6AC-87AD2904B76E}.Debug|Win32.Build.0 = Debug|Win32
+		{F0D10211-D9A4-4BE6-A6AC-87AD2904B76E}.Release|Win32.ActiveCfg = Release|Win32
+		{F0D10211-D9A4-4BE6-A6AC-87AD2904B76E}.Release|Win32.Build.0 = Release|Win32
+		{6155265A-A909-4AF5-86F3-BA23048626FC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6155265A-A909-4AF5-86F3-BA23048626FC}.Debug|Win32.Build.0 = Debug|Win32
+		{6155265A-A909-4AF5-86F3-BA23048626FC}.Release|Win32.ActiveCfg = Release|Win32
+		{6155265A-A909-4AF5-86F3-BA23048626FC}.Release|Win32.Build.0 = Release|Win32
+		{3604FBD9-654F-43CF-A725-DDB77E3A0146}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3604FBD9-654F-43CF-A725-DDB77E3A0146}.Debug|Win32.Build.0 = Debug|Win32
+		{3604FBD9-654F-43CF-A725-DDB77E3A0146}.Release|Win32.ActiveCfg = Release|Win32
+		{3604FBD9-654F-43CF-A725-DDB77E3A0146}.Release|Win32.Build.0 = Release|Win32
+		{7114B57A-5C89-4C2C-8BCE-2E206E7CB11F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7114B57A-5C89-4C2C-8BCE-2E206E7CB11F}.Debug|Win32.Build.0 = Debug|Win32
+		{7114B57A-5C89-4C2C-8BCE-2E206E7CB11F}.Release|Win32.ActiveCfg = Release|Win32
+		{7114B57A-5C89-4C2C-8BCE-2E206E7CB11F}.Release|Win32.Build.0 = Release|Win32
+		{3391B051-84AF-431C-860A-A6F7AF92BBD6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3391B051-84AF-431C-860A-A6F7AF92BBD6}.Debug|Win32.Build.0 = Debug|Win32
+		{3391B051-84AF-431C-860A-A6F7AF92BBD6}.Release|Win32.ActiveCfg = Release|Win32
+		{3391B051-84AF-431C-860A-A6F7AF92BBD6}.Release|Win32.Build.0 = Release|Win32
+		{5EE88351-157B-4B92-9C12-F756E4434799}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5EE88351-157B-4B92-9C12-F756E4434799}.Debug|Win32.Build.0 = Debug|Win32
+		{5EE88351-157B-4B92-9C12-F756E4434799}.Release|Win32.ActiveCfg = Release|Win32
+		{5EE88351-157B-4B92-9C12-F756E4434799}.Release|Win32.Build.0 = Release|Win32
+		{B6D45748-64FF-4E53-B432-5D3D57D3B345}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B6D45748-64FF-4E53-B432-5D3D57D3B345}.Debug|Win32.Build.0 = Debug|Win32
+		{B6D45748-64FF-4E53-B432-5D3D57D3B345}.Release|Win32.ActiveCfg = Release|Win32
+		{B6D45748-64FF-4E53-B432-5D3D57D3B345}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

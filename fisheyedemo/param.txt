@@ -1,0 +1,7 @@
+w=720/h=576/wRatio=1/hRatio=1
+phi0=0/sita0=0/gama0=90
+phi1=90/sita1=0/gama1=20
+phi2=180/sita2=55/gama2=100
+phi3=270/sita3=45/gama3=100
+
+720

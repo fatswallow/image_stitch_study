@@ -1,0 +1,31 @@
+Finding features...
+Features in image #1: 2536
+Features in image #2: 1606
+Finding features, time: 5.43349 sec
+Pairwise matching
+Pairwise matching, time: 8.1932 sec
+Saving matches graph...
+Initial intrinsics #1:
+[283.8433111213499, 0, 352;
+  0, 283.8433111213499, 352;
+  0, 0, 1]
+Initial intrinsics #2:
+[283.8433111213499, 0, 352.5;
+  0, 283.8433111213499, 352.5;
+  0, 0, 1]
+Camera #1:
+[-1.#IND, 0, 352;
+  0, -1.#IND, 352;
+  0, 0, 1]
+Camera #2:
+[-1.#IND, 0, 352.5;
+  0, -1.#IND, 352.5;
+  0, 0, 1]
+Warping images (auxiliary)...
+Warping images, time: 0.00443883 sec
+Compositing...
+Compositing image #1
+Compositing image #2
+Compositing, time: 0.0735635 sec
+Finished, total time: 15.1082 sec
+请按任意键继续. . .

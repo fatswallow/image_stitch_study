@@ -1,0 +1,1 @@
+..\Debug\rotate_plane.exe cali_cam1.jpg 25 cali_cam2.jpg 50 cali_cam3.jpg 50 cali_cam4.jpg 25
