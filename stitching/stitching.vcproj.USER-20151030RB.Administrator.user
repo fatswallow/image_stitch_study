@@ -11,7 +11,7 @@
 			<DebugSettings
 				Command="$(TargetPath)"
 				WorkingDirectory=""
-				CommandArguments="cali_cam1_x.jpg DeWarp1.png --save_graph graph.txt --conf_thresh 0.3"
+				CommandArguments="t1.jpg t2.jpg --save_graph graph.txt --conf_thresh 0.3"
 				Attach="false"
 				DebuggerType="3"
 				Remote="1"
