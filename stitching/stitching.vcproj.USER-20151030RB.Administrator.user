@@ -11,7 +11,7 @@
 			<DebugSettings
 				Command="$(TargetPath)"
 				WorkingDirectory=""
-				CommandArguments="t1.jpg t2.jpg --save_graph graph.txt --conf_thresh 0.3"
+				CommandArguments="b1.jpg b2.jpg --save_graph graph.txt --conf_thresh 0.6"
 				Attach="false"
 				DebuggerType="3"
 				Remote="1"

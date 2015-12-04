@@ -4,6 +4,7 @@
 #include "corrector.h"
 #include "viewer.h"
 #include "imagesStitcher.h"
+#include <string>
 
 
 void help()
@@ -87,9 +88,9 @@ int main(int argc, char **argv)
 
 	correctParameters params;
 
-	int x = 450;
+	int x = 670;
 	int y = 360;
-	int r = 360;
+	int r = 320;
 
 	namedWindow("ori",1);
 	imshow("ori", image);
@@ -152,11 +153,13 @@ int main(int argc, char **argv)
 		namedWindow("img0",1);
 		imshow("img0", img0);
 #endif
-#if 1
+#if 0
 		Mat img1 = adjuster.getCorrectImage(params, corrector::correctMethod::PERSPECTIVE_LONG_LAT_MAP_CAMERA_LEN_MODEL);
 		namedWindow("img1",1);
 		imshow("img1", img1);
-		imwrite("defish1.jpg", img1);
+		string f = "defish_";
+		f.append(argv[1]);
+		imwrite(f, img1);
 #endif
 #if 0
 		Mat img2 = adjuster.getCorrectImage(params, corrector::correctMethod::PERSPECTIVE_LONG_LAT_MAP_CAMERA_LEN_MODEL_REVERSE_W_HALF_PI);
@@ -164,10 +167,12 @@ int main(int argc, char **argv)
 		imshow("img2", img2);
 		//imwrite("defish2.jpg", img2);
 #endif
-#if 0
+#if 1
 		Mat img3 = adjuster.getCorrectImage(params, corrector::correctMethod::PERSPECTIVE_LONG_LAT_MAP_CAMERA_LEN_MODEL_REVERSE_W_VARIABLE);
 		namedWindow("img3",1);
 		imshow("img3", img3);
+#endif
+#if 0
 		Mat img4 = adjuster.getCorrectImage(params, corrector::correctMethod::PERSPECTIVE_LONG_LAT_MAP_CAMERA_LEN_MODEL_FORWORD_W_VARIABLE);
 		namedWindow("img4",1);
 		imshow("img4", img4);

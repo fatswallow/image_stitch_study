@@ -1,3 +1,4 @@
 graph matches_graph{
-"t1.jpg" -- "t2.jpg"[label="Nm=63, Ni=20, C=0.743494"];
+"b1.jpg";
+"b2.jpg";
 }

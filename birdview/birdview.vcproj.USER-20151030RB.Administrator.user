@@ -11,7 +11,7 @@
 			<DebugSettings
 				Command="$(TargetPath)"
 				WorkingDirectory=""
-				CommandArguments="fisheye_undistorted2.png 8 6"
+				CommandArguments="front1.JPG 3 4 0 0 0 0 1"
 				Attach="false"
 				DebuggerType="3"
 				Remote="1"

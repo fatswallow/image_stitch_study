@@ -11,7 +11,7 @@
 			<DebugSettings
 				Command="$(TargetPath)"
 				WorkingDirectory=""
-				CommandArguments="resize_CAM1.jpg"
+				CommandArguments="front.jpg"
 				Attach="false"
 				DebuggerType="3"
 				Remote="1"
